@@ -2,13 +2,13 @@
 
 class Session {
 
-    public function getLocalIp(){ 
+    public static function getLocalIp(){ 
         return gethostbyaddr($_SERVER['REMOTE_ADDR']); 
     }
 
-    public function createSession(){
+    public static function createSession(){
         session_start();
-        $_SESSION['ip'] = $this->getLocalIp();
+        $_SESSION['ip'] = self::getLocalIp();
     }
 
     public function sessionCheck(){
@@ -24,5 +24,4 @@ class Session {
 
 }
 
-$sessao = new Session();
-$sessao->createSession();
+Session::createSession();

@@ -6,6 +6,12 @@ class Violao {
     private $modelo;
     private int $preco;
 
+    public function __construct($marca, $modelo, int $preco){
+        $this->marca;
+        $this->modelo;
+        $this->preco;
+    }
+
     // Getters
     public function getMarca(){
         return $this->marca;
@@ -25,10 +31,11 @@ class Violao {
     }
 
     public function setModelo($par){
-        return $this->modelo = $par;
+        $this->modelo = $par;
     }
 
     public function setPreco(int $par){
-        return $this->preco = $par;
+        $this->preco = $par;
     }
+
 }
