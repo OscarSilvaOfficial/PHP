@@ -1,0 +1,39 @@
+td a {
+    padding: .3em;
+}
+
+.container form {
+    margin-top: 1em;
+}
+
+.form-group .col {
+    margin-bottom: .5em;
+}
+
+.dirname {
+    color: lightseagreen;
+}
+
+.container {
+    text-align: center;
+}
+
+.dolar {
+    color: #35ae35;
+}
+
+.assinatura {
+    font-size: 2em;
+}
+
+.dir {
+    color: teal;
+}
+
+#add-cliente-btn {
+    float: center;
+}
+
+#tabela-cliente {
+    margin-top: 1.5em;
+}
