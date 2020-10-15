@@ -32,7 +32,7 @@ require_once('./databases.php');
                     <a href="#">
                         <i class="fa fa-trash" aria-hidden="true"></i>
                     </a>
-                    <a href="#" data-toggle="modal" data-target="#exampleModal">
+                    <a href="#" data-toggle="modal" data-target="#changeModal">
                         <i class="fa fa-pencil" aria-hidden="true"></i>
                     </a>
                 </td>
